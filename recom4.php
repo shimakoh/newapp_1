@@ -10,7 +10,7 @@ if (!empty($_POST['answerchara'])) {
 }
 
 if (!empty($_POST['answerwhen'])) {
-    $_SESSION['recom']['Qwhen']=$_POST['answerwhen'];   
+    $_SESSION['recom']['Qwhen']=$_POST['answerwhen'];
 
     header('Location: answer.php');
     excit();

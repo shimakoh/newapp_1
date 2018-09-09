@@ -3,7 +3,7 @@ session_start();
 require('dbconnect.php');
 $jname='';
 
- var_dump($_SESSION['recom']['name']);
+var_dump($_SESSION['recom']['name']);
 var_dump($_SESSION['recom']['id']);
 
 
